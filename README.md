@@ -10,8 +10,12 @@ Training
 
 Testing
 
-Deploy the Application
+Deploy the Application:
+
 Copy the saved model_ASL into the Frontend directory.
+
 Run the application by executing app.py
+
 python app.py
+
 Now, your application should be up and running, ready to convert ASL gestures into spoken language and text.
