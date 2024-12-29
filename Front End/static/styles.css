@@ -1,0 +1,145 @@
+/* General reset for padding, margin, and box-sizing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Lucida Console', cursive;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; /* Cover entire viewport height */
+}
+
+/* Title container styling */
+.title-container {
+    text-align: center;
+    margin-top: 30px; /* Adjusted top margin */
+}
+
+.title-container h1 {
+    margin: 0;
+    font-size: 6em; /* Large title for better visibility */
+    line-height: 1.2; /* Adjust spacing between lines */
+    color: #04AA6D; /* Green for emphasis */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Added shadow for better contrast */
+}
+
+/* Video feed styling */
+#videoElement {
+    border: 5px solid #04AA6D; /* Add a green border for the video feed */
+    border-radius: 10px; /* Rounded corners */
+    width: 90%; /* Make video responsive */
+    max-width: 700px; /* Set a max width for video */
+    margin-top: 20px; /* Space above the video feed */
+}
+
+/* Control buttons container */
+#controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.9);
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+/* Buttons */
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em; /* Adjusted font size */
+    border-radius: 10px; /* Rounded corners */
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #037f50; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Add a scaling effect */
+}
+
+.button2 {
+    background-color: #008CBA; /* Blue */
+}
+
+.button2:hover {
+    background-color: #0077a5;
+}
+
+.button3 {
+    background-color: #f44336; /* Red */
+}
+
+.button3:hover {
+    background-color: #d32f2f;
+}
+
+.button4 {
+    background-color: #e7e7e7; /* Light Gray */
+    color: black;
+}
+
+.button4:hover {
+    background-color: #cfcfcf;
+}
+
+/* Heading and paragraph styling */
+h1 {
+    font-size: 5em; /* Adjusted for consistency */
+}
+
+p {
+    font-size: 2.2em; /* Adjusted for readability */
+    color: #fff;
+    margin-top: 15px; /* Added margin for spacing */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .title-container h1 {
+        font-size: 3.5em; /* Smaller title for smaller screens */
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 1.1em; /* Reduced font size for buttons */
+    }
+
+    p {
+        font-size: 1.8em; /* Adjusted font size for better readability */
+    }
+}
+
+/* Enhanced focus styles for accessibility */
+button:focus {
+    outline: 3px solid #04AA6D; /* Green outline on focus */
+    outline-offset: 2px;
+}
+
+/* Added smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
