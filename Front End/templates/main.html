@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language To Speech & Text Converter</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Main container for centering content vertically and horizontally -->
+    <div class="container">
+        <!-- Container for the title -->
+        <div class="title-container">
+            <h1>Sign Language <br> To Speech & <br> Text Converter</h1>
+        </div>
+    </div>
+
+    <!-- Container for the large buttons at the bottom -->
+    <div class="button-container">
+        <!-- Row container to hold the ASL button -->
+        <div class="button-row">
+            <!-- Link button for American Sign Language -->
+            <a href="/asl" class="large-button">
+                <strong><span>AMERICAN SIGN LANGUAGE</span></strong>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
