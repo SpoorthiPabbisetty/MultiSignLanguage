@@ -3,8 +3,11 @@ American Sign Language (ASL): Utilized the ASL Alphabet Dataset on Kaggle contai
 Link:  https://www.kaggle.com/datasets/grassknoted/asl-alphabet?select=asl_alphabet_train
 
 Steps:
+
 Data processing
-Training 
+
+Training
+
 Testing
 
 Deploy the Application
